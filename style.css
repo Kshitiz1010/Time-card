@@ -1,0 +1,73 @@
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body{
+     background: url(nepal-army1.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.head-bg{
+    /* background: url(header.png);
+    height: 155px; */
+    max-width: 100%;
+    height: auto
+}
+#btn{
+    margin-top: 15px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-col{
+    height: 400px;
+    overflow:scroll;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.table-row{
+    margin-top: 30px;
+}
+.footer-bg{
+    background-color: #096415
+}
+.footer-bg p{
+    color: #dddddd;
+}
+.entry-col h1{
+    color: green;
+    font-weight: bold;
+}
+.exit-col h1{
+    color: red;
+    font-weight: bold;
+}
+.duration span{
+    color: green;
+    font-weight:bold;
+}
+/* Start of Parallax Effect bg */
+.parallax {
+    /* The image used */
+    background-image: url("nepal-army1.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+/* End of Earallax Effect */
+
+.form-control{
+    background-color: #f8fff8;
+}
